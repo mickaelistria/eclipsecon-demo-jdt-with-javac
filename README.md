@@ -4,6 +4,15 @@ This repository hosts the source project and the scenario description to demo JD
 
 ## Scenario
 
+### Prerequisites
+
+Projects need to be available on filesystem
+* eclipsecon-demo-jdt-with-javac
+* spring-petclinic
+* spring-data-jpa
+
+with `mvn verify && mvn clean` already run on those.
+
 ### Demo things working
 
 #### Basics
@@ -30,4 +39,5 @@ Show generated .class files (maybe highlight they're from Javac)
 ### Differences with ECJ
 
 * Type inference ( https://github.com/eclipse-jdt/eclipse.jdt.core/issues/494 ): Use TypeInferenceDemo.java
-* 
+* dots in folder name ( https://github.com/redhat-developer/vscode-java/issues/1406 ): Use DotInFolderNames.java
+* Annotation processing (AbortCompilation): https://github.com/spring-projects/spring-data-jpa.git - throw AbortCompilation when handling annotation processing
