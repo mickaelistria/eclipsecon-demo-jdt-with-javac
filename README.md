@@ -20,6 +20,12 @@ Show generated .class files (maybe highlight they're from Javac)
 
 #### Annotation processing
 
+#### Tests and debugging
+
+* Open BasicTest.java
+* Put a breakpoint in `assert...`
+* Debug as JUnit Test
+* see breakpoints, step into `areWeIn2024`, value of `year` on hover... working
 
 ### Differences with ECJ
 

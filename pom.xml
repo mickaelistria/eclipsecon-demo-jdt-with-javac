@@ -4,4 +4,13 @@
   <artifactId>demo-jdt-with-javac</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Demo JDT with Javac</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>5.10.2</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>
