@@ -3,6 +3,11 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
 import java.util.function.Function;
 
+/**
+ * Demo ECJ failure https://github.com/eclipse-jdt/eclipse.jdt.core/issues/494
+ * 
+ * <p>Working with Javac</p>
+ */
 public class TypeInferenceDemo {
     public static void main(String[] args) {
         // passed.
