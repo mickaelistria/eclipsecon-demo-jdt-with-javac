@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 class BasicTest {
 
-	final static int YEAR = Calendar.getInstance().get(Calendar.YEAR); 
+	final int YEAR = Calendar.getInstance().get(Calendar.YEAR); 
 
 	private boolean areWeIn2024() {
 		return YEAR == 2024;

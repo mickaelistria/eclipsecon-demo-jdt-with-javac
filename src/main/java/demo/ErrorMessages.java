@@ -1,6 +1,6 @@
 package demo;
 
-/// This class demoes __error messages__
+/// This class demoes **error messages**
 public class ErrorMessages {
 
 	int n
