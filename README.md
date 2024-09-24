@@ -46,4 +46,13 @@ Show generated .class files (maybe highlight they're from Javac)
 
 ### Showcase introduction a new Java feature
 
+#### Better recovery/diagnostics in Java 24
+
+* Open javac24isBetter/Test.javac
+  ** With ECJ: uninteresting messages
+  ** with Javac (23): crash ☹️, messy diagnostics
+  ** with Javac 24: no crash but empty -> check log -> add problem mapping -> re-edit => much better!
+
+#### A new feature
+
 Find a small Java 24 feature already supported by Javac and that we have easily-ish converted to JDT. Then for the presentation, revert this support. Show the feature is missing and reimplement live the support to showcase it's a matter of minutes.
