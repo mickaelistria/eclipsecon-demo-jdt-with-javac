@@ -30,6 +30,10 @@ Show generated .class files (maybe highlight they're from Javac)
 
 #### Annotation processing
 
+* Demo a mapstruct annotation processing sample in `annotation_processing` package
+* Highlight the generated .java files (highlight they're from Javac)
+* Modify a source file and showcase the generated .java file is updated
+
 #### Tests and debugging
 
 * Open BasicTest.java
