@@ -34,6 +34,13 @@ Show generated .class files (maybe highlight they're from Javac)
 * Highlight the generated .java files (highlight they're from Javac)
 * Modify a source file and showcase the generated .java file is updated
 
+#### Build
+* Full Build
+  * Open the `target/classes/build` folder to show the .class files
+* Incremental Build
+  * Open `build/Dto.java` and add a new field `String role`
+  * Open the `target/classes/build` folder to show the updated .class files (Compare the timestamp to see only the affected classes are updated)
+
 #### Tests and debugging
 
 * Open BasicTest.java
