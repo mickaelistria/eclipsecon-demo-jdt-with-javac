@@ -23,7 +23,7 @@ Open `spring-petclinic` in editor/IDE, show features working
 * control-click navigation
 * code completion
 * create an edit that causes an error
-  ** show diagnostic
+  * show diagnostic
 * show quickfix
 
 Show generated .class files (maybe highlight they're from Javac)
@@ -60,9 +60,9 @@ Show generated .class files (maybe highlight they're from Javac)
 #### Better recovery/diagnostics in Java 24
 
 * Open javac24isBetter/Test.javac
-  ** With ECJ: uninteresting messages
-  ** with Javac (23): crash ☹️, messy diagnostics
-  ** with Javac 24: no crash but empty -> check log -> add problem mapping -> re-edit => much better!
+  * With ECJ: uninteresting messages
+  * with Javac (23): crash ☹️, messy diagnostics
+  * with Javac 24: no crash but empty -> check log -> add problem mapping -> re-edit => much better!
 
 #### A new feature
 
